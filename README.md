@@ -1,1 +1,6 @@
-# teste-basico-de-front-end
+# Teste básico de Front End
+
+## Stack utilizada
+
+- HTML
+- CSS

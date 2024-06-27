@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste básico de Front End</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="listagem">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="titulo-categoria">
+                    <h3 class="title">
+                        <strong>{{BoxTitle}}</strong>
+                    </h3>
+                </div>
+                <ul class="vitrine-carrossel">
+                    <li class="listagem-item-prod-id-{{ProductId}}">
+                        <div class="listagem-item-wrap">
+                            <a 
+                                href="{{{Link}}}" 
+                                class="produto" 
+                                title="{{Title}}" 
+                                tabindex="-1"
+                            ></a>
+                            <div class="imagem-produto">
+                                <img 
+                                    loading="lazy"
+                                    src="{{{ImageLink}}}"
+                                    alt="{{Title}}" class="imagem-principal"
+                                >
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="apoio-sh"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
